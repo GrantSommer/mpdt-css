@@ -282,10 +282,10 @@ Helmet Roles from Faitful RP
 
 #main_avatar_room #main-user-list-room #avatar-list .updub .dubs::after
 {
-	content:      url(http://i.imgur.com/n9h8wrg.png) !important;
+    content:      url(http://i.imgur.com/n9h8wrg.png) !important;
     position:     relative;
     top:          2.5px;
-	padding-left: 5px;
+    padding-left: 5px;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .downdub .dubs::after
