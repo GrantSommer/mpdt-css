@@ -1,0 +1,305 @@
+/*
+Custom CSS for Mineplex Dubtrack
+Created by FlippinPiggeh
+Helmet Roles from Faitful RP
+*/
+
+
+/* CHAT: Role Colors */
+
+#chat .chat-main .isOwner .username,
+#chat .chat-main .isOwner .username:hover,
+#chat .chat-main .isOwner .username:visited
+{
+    color: #BE0000 !important;
+}
+
+#chat .chat-main .isCo-owner .username,
+#chat .chat-main .isCo-owner .username:hover,
+#chat .chat-main .isCo-owner .username:visited
+{
+    color: #BE0000 !important;
+}
+
+#chat .chat-main .isManager .username,
+#chat .chat-main .isManager .username:hover,
+#chat .chat-main .isManager .username:visited
+{
+    color: #FF0000 !important;
+}
+
+#chat .chat-main .isMod .username,
+#chat .chat-main .isMod .username:hover,
+#chat .chat-main .isMod .username:visited
+{
+    color: #E6A21C !important;
+}
+
+#chat .chat-main .isVip .username,
+#chat .chat-main .isVip .username:hover,
+#chat .chat-main .isVip .username:visited
+{
+    color: #27A196 !important;
+}
+
+#chat .chat-main .isResident-dj .username,
+#chat .chat-main .isResident-dj .username:hover,
+#chat .chat-main .isResident-dj .username:visited
+{
+    color: #D82EE2 !important;
+}
+
+
+/* CHAT: Role Icons */
+
+#chat .chat-main .isOwner .username::before
+{
+    content:       url(http://i.imgur.com/yyEu27I.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isCo-owner .username::before
+{
+    content:       url(http://i.imgur.com/yyEu27I.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isManager .username::before
+{
+    content:       url(http://i.imgur.com/VXdo9sb.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isMod .username::before
+{
+    content:       url(http://i.imgur.com/gIIznnY.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isVip .username::before
+{
+    content:       url(http://i.imgur.com/fl5hgyE.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isResident-dj .username::before
+{
+    content:       url(http://i.imgur.com/ClXhzOf.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+
+/* CHAT: Colored Mentions */
+
+#chat .chat-container .chat-messages .chat-main li .activity-row .text .username-handle
+{
+    color: #D82EE2 !important;
+}
+
+
+/* USERLIST: Role Colors */
+
+#main_avatar_room #main-user-list-room #avatar-list .creator .username
+{
+    color: #BE0000 !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .co-owner .username
+{
+    color: #BE0000 !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .manager .username
+{
+    color: #FF0000 !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .mod .username
+{
+    color: #E6A21C !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .vip .username
+{
+    color: #27A196 !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .resident-dj .username
+{
+    color: #D82EE2 !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .currentDJ .username
+{
+    color: #D82EE2 !important;
+}
+
+
+/* USERLIST: Roles Labels */
+
+#main_avatar_room #main-user-list-room #avatar-list .creator .username::after
+{
+    content: "- Creator" !important;
+    color:   #878C8E !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .co-owner .username::after
+{
+    content: "- Co-Owner" !important;
+    color:   #878C8E !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .manager .username::after
+{
+    content: "- Manager" !important;
+    color:   #878C8E !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .mod .username::after
+{
+    content: "- Moderator" !important;
+    color:   #878C8E !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .vip .username::after
+{
+    content: "- VIP" !important;
+    color:   #878C8E !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .resident-dj .username::after
+{
+    content: "- Resident DJ" !important;
+    color:   #878C8E !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username::after
+{
+    content: "- DJ" !important;
+    color:   #878C8E !important;
+}
+
+
+/* USERLIST: Roles Icons */
+
+#main_avatar_room #main-user-list-room #avatar-list .owner .username::before
+{
+    content:       url(http://i.imgur.com/yyEu27I.png) !important;
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .co-owner .username::before
+{
+    content:       url(http://i.imgur.com/yyEu27I.png) !important;
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .manager .username::before
+{
+    content:       url(http://i.imgur.com/VXdo9sb.png) !important;
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .mod .username::before
+{
+    content:       url(http://i.imgur.com/gIIznnY.png) !important;
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .vip .username::before
+{
+    content:       url(http://i.imgur.com/fl5hgyE.png) !important;
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .resident-dj .username::before
+{
+    content:       url(http://i.imgur.com/ClXhzOf.png) !important;
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .currentDJ .username::before
+{
+    content:       url(http://i.imgur.com/IqheX1a.png) !important;
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+
+/* USERLIST: Default Name Spacing */
+
+#main_avatar_room #main-user-list-room #avatar-list .username::before
+{
+    content:       " ";
+	padding-right: 25px;
+}
+
+/* USERLIST: CSS Creator Tag */
+
+#main_avatar_room #main-user-list-room #avatar-list .userid-55fe293dcc412503006be7eb .dubs::before
+{
+	content:       "[CSS Creator]" !important;
+	color:         #00FF00 !important;
+	padding-right: 5px;
+}
+
+
+/* CHAT: CSS Creator Tag */
+
+#chat .chat-main .user-55fe293dcc412503006be7eb .username::after
+{
+    content:      "[CSS]" !important;
+    color:        #878C8E !important;
+    padding-left: 5px;
+}
+
+/* USERLIST: Vote Indicator */
+
+#main_avatar_room #main-user-list-room #avatar-list .updub .dubs::after
+{
+	content:      url(http://i.imgur.com/n9h8wrg.png) !important;
+    position:     relative;
+    top:          2.5px;
+	padding-left: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .downdub .dubs::after
+{
+    content:      url(http://i.imgur.com/QZnEwih.png) !important;
+    position:     relative;
+    top:          2.5px;
+    padding-left: 5px;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list .dubs::after
+{
+    content:      url(http://i.imgur.com/M59vOuA.png);
+    position:     relative;
+    top:          2.5px;
+    padding-left: 5px;
+}
