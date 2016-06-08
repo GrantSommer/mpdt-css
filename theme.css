@@ -7,44 +7,44 @@ Helmet Roles from Faitful RP
 
 /* CHAT: Role Colors */
 
-#chat .chat-main .isOwner .username,
-#chat .chat-main .isOwner .username:hover,
-#chat .chat-main .isOwner .username:visited
+#chat .chat-main .creator .username,
+#chat .chat-main .creator .username:hover,
+#chat .chat-main .creator .username:visited
 {
     color: #BE0000 !important;
 }
 
-#chat .chat-main .isCo-owner .username,
-#chat .chat-main .isCo-owner .username:hover,
-#chat .chat-main .isCo-owner .username:visited
+#chat .chat-main .co-owner .username,
+#chat .chat-main .co-owner .username:hover,
+#chat .chat-main .co-owner .username:visited
 {
     color: #BE0000 !important;
 }
 
-#chat .chat-main .isManager .username,
-#chat .chat-main .isManager .username:hover,
-#chat .chat-main .isManager .username:visited
+#chat .chat-main .manager .username,
+#chat .chat-main .manager .username:hover,
+#chat .chat-main .manager .username:visited
 {
     color: #FF0000 !important;
 }
 
-#chat .chat-main .isMod .username,
-#chat .chat-main .isMod .username:hover,
-#chat .chat-main .isMod .username:visited
+#chat .chat-main .mod .username,
+#chat .chat-main .mod .username:hover,
+#chat .chat-main .mod .username:visited
 {
     color: #E6A21C !important;
 }
 
-#chat .chat-main .isVip .username,
-#chat .chat-main .isVip .username:hover,
-#chat .chat-main .isVip .username:visited
+#chat .chat-main .vip .username,
+#chat .chat-main .vip .username:hover,
+#chat .chat-main .vip .username:visited
 {
     color: #27A196 !important;
 }
 
-#chat .chat-main .isResident-dj .username,
-#chat .chat-main .isResident-dj .username:hover,
-#chat .chat-main .isResident-dj .username:visited
+#chat .chat-main .resident-dj .username,
+#chat .chat-main .resident-dj .username:hover,
+#chat .chat-main .resident-dj .username:visited
 {
     color: #D82EE2 !important;
 }
@@ -151,43 +151,43 @@ Helmet Roles from Faitful RP
 
 #main_avatar_room #main-user-list-room #avatar-list .creator .username::after
 {
-    content: " Creator" !important;
+    content: " - Creator" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .co-owner .username::after
 {
-    content: " Co-Owner" !important;
+    content: " - Co-Owner" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .manager .username::after
 {
-    content: " Manager" !important;
+    content: " - Manager" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .mod .username::after
 {
-    content: " Moderator" !important;
+    content: " - Moderator" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .vip .username::after
 {
-    content: " VIP" !important;
+    content: " - VIP" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .resident-dj .username::after
 {
-    content: " Resident DJ" !important;
+    content: " - Resident DJ" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username::after
 {
-    content: " DJ" !important;
+    content: " - DJ" !important;
     color:   #878C8E !important;
 }
 
@@ -256,26 +256,7 @@ Helmet Roles from Faitful RP
 #main_avatar_room #main-user-list-room #avatar-list .username::before
 {
     content:       " ";
-	padding-right: 25px;
-}
-
-/* USERLIST: CSS Creator Tag */
-
-#main_avatar_room #main-user-list-room #avatar-list .userid-55fe293dcc412503006be7eb .dubs::before
-{
-	content:       "[CSS Creator]" !important;
-	color:         #00FF00 !important;
-	padding-right: 5px;
-}
-
-
-/* CHAT: CSS Creator Tag */
-
-#chat .chat-main .user-55fe293dcc412503006be7eb .username::after
-{
-    content:      "[CSS]" !important;
-    color:        #878C8E !important;
-    padding-left: 5px;
+    padding-right: 25px;
 }
 
 /* USERLIST: Vote Indicator */
