@@ -151,43 +151,43 @@ Helmet Roles from Faitful RP
 
 #main_avatar_room #main-user-list-room #avatar-list .creator .username::after
 {
-    content: "- Creator" !important;
+    content: " - Creator" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .co-owner .username::after
 {
-    content: "- Co-Owner" !important;
+    content: " - Co-Owner" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .manager .username::after
 {
-    content: "- Manager" !important;
+    content: " - Manager" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .mod .username::after
 {
-    content: "- Moderator" !important;
+    content: " - Moderator" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .vip .username::after
 {
-    content: "- VIP" !important;
+    content: " - VIP" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list .resident-dj .username::after
 {
-    content: "- Resident DJ" !important;
+    content: " - Resident DJ" !important;
     color:   #878C8E !important;
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username::after
 {
-    content: "- DJ" !important;
+    content: " - DJ" !important;
     color:   #878C8E !important;
 }
 
@@ -302,4 +302,9 @@ Helmet Roles from Faitful RP
     position:     relative;
     top:          2.5px;
     padding-left: 5px;
+}
+
+.user-role {
+    content: none;
+}
 }
