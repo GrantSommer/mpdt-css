@@ -52,7 +52,7 @@ Helmet Roles from Faitful RP
 
 /* CHAT: Role Icons */
 
-#chat .chat-main .isOwner .username::before
+#chat .chat-main .creator .username::before
 {
     content:       url(http://i.imgur.com/yyEu27I.png);
     position:      relative;
@@ -60,7 +60,7 @@ Helmet Roles from Faitful RP
     padding-right: 5px;
 }
 
-#chat .chat-main .isCo-owner .username::before
+#chat .chat-main .co-owner .username::before
 {
     content:       url(http://i.imgur.com/yyEu27I.png);
     position:      relative;
@@ -68,7 +68,7 @@ Helmet Roles from Faitful RP
     padding-right: 5px;
 }
 
-#chat .chat-main .isManager .username::before
+#chat .chat-main .manager .username::before
 {
     content:       url(http://i.imgur.com/VXdo9sb.png);
     position:      relative;
@@ -76,7 +76,7 @@ Helmet Roles from Faitful RP
     padding-right: 5px;
 }
 
-#chat .chat-main .isMod .username::before
+#chat .chat-main .mod .username::before
 {
     content:       url(http://i.imgur.com/gIIznnY.png);
     position:      relative;
@@ -84,7 +84,7 @@ Helmet Roles from Faitful RP
     padding-right: 5px;
 }
 
-#chat .chat-main .isVip .username::before
+#chat .chat-main .vip .username::before
 {
     content:       url(http://i.imgur.com/fl5hgyE.png);
     position:      relative;
@@ -92,7 +92,7 @@ Helmet Roles from Faitful RP
     padding-right: 5px;
 }
 
-#chat .chat-main .isResident-dj .username::before
+#chat .chat-main .resident-dj .username::before
 {
     content:       url(http://i.imgur.com/ClXhzOf.png);
     position:      relative;
