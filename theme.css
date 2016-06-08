@@ -305,5 +305,5 @@ Helmet Roles from Faitful RP
 }
 
 .user-role {
-    content: none;
+    visibility: hidden;
 }
