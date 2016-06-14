@@ -194,7 +194,7 @@ Helmet Roles from Faitful RP
 
 /* USERLIST: Roles Icons */
 
-#main_avatar_room #main-user-list-room #avatar-list .owner .username::before
+#main_avatar_room #main-user-list-room #avatar-list .creator .username::before
 {
     content:       url(http://i.imgur.com/yyEu27I.png) !important;
     position:      relative;
