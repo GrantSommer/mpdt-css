@@ -288,3 +288,9 @@ Helmet Roles from Faitful RP
 .user-role {
     visibility: hidden;
 }
+
+.message.id-5626305>.badge-box>.bdg {
+    background:url('https://grantsommer.com/plug.dj/icon.png');
+    background-position:0 0;
+    background-size:30px 30px;
+}
